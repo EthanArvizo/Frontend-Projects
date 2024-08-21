@@ -6,36 +6,96 @@
     <title>Personal Portfolio</title>
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
-    <div>
-      <div class="nav" id="logo">
-        <img src="./logo.png" alt="Print Zoom" />
-      </div>
-      <div class="nav">
+    <header>
+      <nav>
+        <img class="logo" src="media/mountains.jpg" alt="Mountain View" />
+        <h2 class="tagline">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </h2>
+      </nav>
+      <button>Login</button>
+    </header>
+
+    <main>
+      <section class="blog-post">
+        <article>
+          <header>
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <img id="featured-image" src="media/pz-office.jpg" alt="" />
+          </header>
+          <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+            iure.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+            iure.
+          </p>
+
+          <div>
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas,
+              modi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+              sunt.
+            </p>
+          </div>
+
+          <div>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              laborum.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+            repellat labore!
+          </p>
+        </article>
+      </section>
+
+      <section class="contact">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat.
+        </p>
+
         <form action="">
-          <input type="text" />
-          <input type="text" />
+          <input
+            type="text"
+            name="name"
+            id=""
+            placeholder="Enter your name here!"
+          />
+          <button type="submit">Submit</button>
         </form>
-      </div>
-      <div class="nav" id="auth">
-        <button id="login">Login</button>
-        <button id="register">Registration</button>
-      </div>
-    </div>
 
-    <div>
-      <div>Banner</div>
-      <div>
-        <div>Tech Products</div>
-        <div>Fashion</div>
-      </div>
-    </div>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </section>
+    </main>
 
-    <div>
-      <div>Logo</div>
-      <div>Countries</div>
-    </div>
+    <footer>
+      <img src="media/mountains.jpg" alt="Mountain View" />
+      <h2 class="tagline" id="footer">
+        Lorem ipsum dolor sit amet consectetur.
+      </h2>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Youtube</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
